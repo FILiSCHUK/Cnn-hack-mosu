@@ -1,0 +1,221 @@
+body{
+    background-color: #e8d5f8c8;
+}
+
+  
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f0e0e;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+li {
+   
+    margin-left: 2%;
+    margin-right: 4%;
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    color: rgb(179, 18, 112);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #030000;
+    font-weight: bold;
+
+}
+.info{
+
+    width: 78%;
+margin: 0 auto;
+margin-top: 6%;
+padding: 120px;
+background: linear-gradient(rgb(179, 18, 112), rgb(89, 51, 215));
+border-radius: 15px;
+
+}
+.girl{
+    width: 40%;
+    margin:-6% 68% 0% -6%;
+}
+.naz{
+    margin:-44% 2% 0% 44%;
+    float: right;
+    font-family: monospace;
+    font-size:  33px;
+    color:  #030000;
+}
+
+.naz1{
+    float: right;
+    font-family: monospace;
+    font-size:  20px;
+    color: #030000;
+    margin:-38% 2% 0% 44%;
+}
+
+p.popr
+{
+    width: 160%;
+    background-color: #ae3d99c8;
+      border-radius: 8px;
+      border: black;
+      color:  #030000;
+      text-align: center;
+      font-family: monospace;
+      font-size: 20px;
+    
+ }
+
+a.porp{
+    text-decoration: none;
+    margin: -5% -12% 0% 6%;
+    float: left;
+
+}
+
+.prog{
+width: 78%;
+margin: 0 auto;
+margin-top: 5%;
+padding: 120px;
+background: linear-gradient(rgb(89, 51, 215), rgb(179, 18, 112));
+border-radius: 15px;
+
+}
+.foto{
+    
+    float: left;
+    margin:-8% 33% 0% -2%;
+    font-family: monospace;
+    font-size:  33px;
+    color:  #030000;
+}
+
+.girl3{
+    width: 35%;
+    float: right;
+    margin:-26% 4% 0% 78%;
+    overflow: hidden;
+}
+.girl3:hover{
+    transform: scale(1.2);
+    transition: 4s;
+  
+}
+
+.form-label:hover
+{
+        color: rgb(222, 134, 134);
+        font-weight: bold;
+}
+.form-label{
+    float: left;
+    font-family: monospace;
+    font-size:  35px;
+    color: rgb(179, 18, 112);
+    margin:-7% 28% 0% 39%;
+}
+
+.form-control{
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.viv{
+    width: 34%;
+    float: right;
+    margin:6% 60% 0% 1%;
+    font-family: monospace;
+    font-size:  20px;
+    color: rgb(0, 0, 0);
+    background-color: #ae3d99c8;
+    border-radius: 8px;
+    border: black;
+    color:  #000000;
+    text-align: center;
+
+}
+.form-control{
+margin-top: -6%;
+
+}
+.message{
+    font-family: monospace;
+    border-radius: 13px;
+    font-size:  16px;
+    margin:2% 66% 0% -3%;
+    opacity: 0.8;
+    z-index: 2;
+
+}
+.instr{
+
+    width: 78%;
+margin: 0 auto;
+margin-top: 5%;
+padding: 120px;
+background: linear-gradient(rgb(179, 18, 112), rgb(89, 51, 215));
+border-radius: 15px;
+}
+.kontact{
+width: 78%;
+margin: 0 auto;
+margin-top: 5%;
+padding: 120px;
+background: linear-gradient(rgb(89, 51, 215), rgb(179, 18, 112));
+border-radius: 15px;
+}
+a:hover {
+    transition: 10s;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+  }
+  
+  .paragraph img {
+    width: 40px; /* Задайте нужную ширину картинки */
+    height: 40px; /* Задайте нужную высоту картинки */
+    margin-right: 10px; /* Задайте нужные отступы картинки */
+
+  }
+
+  
+prog.button {
+    margin: -3% 34% 0% 2%;
+    color: #000000; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: #ae3d99c8; /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    font-family: monospace;
+  } 

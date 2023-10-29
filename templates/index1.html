@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="st.css">
+
+</head>
+
+
+
+<body>
+
+  <div class="nav">
+    <ul>
+       
+        <li><a href="#instr"><b>Инструкция</b></a></li>
+        <li><a href="#prog"><b>Программа</b></a></li>
+      </ul>
+    </div>
+
+ 
+
+
+
+       
+</div>
+
+      <div id="instr" class="instr">
+
+          <div class="paragraph">
+            <img src="{{ url_for('static', filename='images/iconka.png') }}" alt="Описание картинки">
+            <p>Перейдите на главную страницу и найдите кнопку "Загрузить фото". Нажмите на нее.</p>
+          </div>
+          
+          <div class="paragraph">
+              <img src="{{ url_for('static', filename='images/iconka.png') }}" alt="Описание картинки">
+            <p>В появившемся диалоговом окне найдите и выберите фотографию, которую хотите проанализировать на наличие огнестрельного оружия. Нажмите на кнопку "Выбрать файл".</p>
+          </div>
+            <div class="paragraph">
+                <img src="{{ url_for('static', filename='images/iconka.png') }}" alt="Описание картинки">
+              <p>Подождите несколько секунд, пока приложение загружает и анализирует фотографию.</p>
+            </div>
+              <div class="paragraph">
+                  <img src="{{ url_for('static', filename='images/iconka.png') }}" alt="Описание картинки">
+                <p>После анализа, на экране появится результат. Если огнестрельное оружие было обнаружено на фото, то вам будет показано сообщение с этой информацией. Если оружие не обнаружено, соответствующее сообщение также будет отображено.</p>
+              </div>
+                <div class="paragraph">
+                    <img src="{{ url_for('static', filename='images/iconka.png') }}" alt="Описание картинки">
+                  <p>В случае если хотите проанализировать еще одну фотографию на оружие, вернитесь на главную страницу и повторите шаги.</p>
+                </div>
+    </div>
+      
+      
+    <div id="prog" class="prog"> 
+        <div class="mb-3">
+            <label for="formFile" class="form-label">SaveScan</label>
+            <input class="form-control" type="file" id="formFile">
+            <input value ="Провести анализ" onclick = main.py type = button>
+
+            <p class="viv"><b>Аналитическая справка</b> <output name="result"></output></p>
+            <textarea class="message" maxlength="1000" rows="8" cols="56">{{ result }}</textarea>
+
+            <img src="{{ url_for('static', filename='images/girl3.png') }}" alt="">
+        </div>
+
+     
+</div>
+
+      
+</body>
+</html>
+
+
